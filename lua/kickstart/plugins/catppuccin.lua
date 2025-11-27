@@ -35,17 +35,7 @@ return {
           types = {},
           operators = {},
         },
-        integrations = {
-          cmp = true,
-          gitsigns = true,
-          nvimtree = true,
-          telescope = true,
-          treesitter = true,
-          mini = {
-            enabled = true,
-            indentscope_color = '',
-          },
-        },
+        auto_integrations = true,
       }
 
       -- Apply colorscheme
